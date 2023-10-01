@@ -26,6 +26,15 @@ The bug is, if you put your cursor at the very top right corner, titlebar close 
     margin-right: 100px !important;
 }
 ```
+# A little note
+Applying this theme makes All tabs button and Private browsing text broken so I removed All tabs button to fix it, you can edit it back but it will look weird than usual. 
+
+To get it back, just delete `display: none !important` from `#alltabs-button` and add 
+```
+margin-right: 100px !important;
+```
+
+
 # How to install
 You need to create `chrome` folder in your Profile Directory, you can find your directory in  `about:support`.
 
