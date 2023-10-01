@@ -6,14 +6,27 @@ The bug is, if you put your cursor at the very top right corner, titlebar close 
 <img src="https://raw.githubusercontent.com/birbkeks/FirefoxCSS-Store.github.io/main/images/themes/ftbf.png">
 </p>
 
-# How to install
+# userChrome.css Code
 ```
 .titlebar-buttonbox-container {
     position: absolute;
     right: -9px;
     top: -5px;
 }
+
+#alltabs-button {
+    display: none !important;
+}
+
+.titlebar-spacer[type="pre-tabs"], .titlebar-spacer[type="post-tabs"] {
+    display: none !important;
+}
+
+#private-browsing-indicator-with-label {
+    margin-right: 100px !important;
+}
 ```
+# How to install
 You need to create `chrome` folder in your Profile Directory, you can find your directory in  `about:support`.
 
 After creating `chrome` folder, put `userChrome.css` file in it.
