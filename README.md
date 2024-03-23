@@ -7,6 +7,10 @@ The bug is, if you put your cursor at the very top right corner, titlebar close 
 </p>
 
 # How to install
+
+>[!IMPORTANT]
+>Make sure to apply Dark or Light theme from Extensions & Themes to make it work.
+
 You need to create `chrome` folder in your Profile Directory, you can find it from `about:support`.
 
 After creating `chrome` folder, put `userChrome.css` file in it.
