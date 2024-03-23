@@ -6,7 +6,7 @@ If you put your cursor at the very top right corner, titlebar close button doesn
 (none of the chromium based browsers have this problem)
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/birbkeks/FirefoxCSS-Store.github.io/main/images/themes/ftbf.png">
+<img src="https://github.com/birbkeks/Firefox-Titlebar-Button-Fix/assets/67545942/77ea3c51-c4aa-4f66-965a-7f1a58ca0262">
 </p>
 
 # How to install
