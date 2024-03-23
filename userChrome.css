@@ -1,5 +1,46 @@
 .titlebar-buttonbox-container {
     position: absolute;
-    right: -9px;
-    top: -5px;
+    right: -6px;
+    top: 2px;
+}
+
+:root[tabsintitlebar] .titlebar-buttonbox {
+    width: 142px !important;
+    height: 32px !important;
+}
+
+.titlebar-min:-moz-lwtheme {
+    border-radius: 0 !important;
+    width: 40px !important;
+    height: 37px !important;
+}
+
+.titlebar-max:-moz-lwtheme {
+    border-radius: 0 !important;
+    width: 40px !important;
+    height: 37px !important;
+}
+
+.titlebar-restore:-moz-lwtheme {
+    border-radius: 0 !important;
+    width: 40px !important;
+    height: 37px !important;
+}
+
+.titlebar-close:-moz-lwtheme {
+    border-radius: 0 !important;
+    width: 56px !important;
+    height: 37px !important;
+}
+
+#alltabs-button {
+    display: none !important;
+}
+
+.titlebar-spacer[type="pre-tabs"], .titlebar-spacer[type="post-tabs"] {
+    display: none !important;
+}
+
+#private-browsing-indicator-with-label {
+    margin-right: 145px !important;
 }
