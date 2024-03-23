@@ -6,12 +6,57 @@ The bug is, if you put your cursor at the very top right corner, titlebar close 
 <img src="https://raw.githubusercontent.com/birbkeks/FirefoxCSS-Store.github.io/main/images/themes/ftbf.png">
 </p>
 
+# How to install
+You need to create `chrome` folder in your Profile Directory, you can find it from `about:support`.
+
+After creating `chrome` folder, put `userChrome.css` file in it.
+
+If you're using latest version of Firefox you need to set `toolkit.legacyUserProfileCustomizations.stylesheets` to true in `about:config` or **any of the userChrome.css theme won't going to work**
+
 # userChrome.css Code
+
+> [!NOTE]
+>Applying this theme breaks All tabs button so I had remove it to fix it, you can edit it back but it will look weird than usual. 
+>To get it back, just delete (in the line 36) `display: none !important` from `#alltabs-button` and add 
+>```
+>margin-right: 100px !important;
+>```
+
+
 ```
 .titlebar-buttonbox-container {
     position: absolute;
-    right: -9px;
-    top: -5px;
+    right: -6px;
+    top: 2px;
+}
+
+:root[tabsintitlebar] .titlebar-buttonbox {
+    width: 142px !important;
+    height: 32px !important;
+}
+
+.titlebar-min:-moz-lwtheme {
+    border-radius: 0 !important;
+    width: 40px !important;
+    height: 37px !important;
+}
+
+.titlebar-max:-moz-lwtheme {
+    border-radius: 0 !important;
+    width: 40px !important;
+    height: 37px !important;
+}
+
+.titlebar-restore:-moz-lwtheme {
+    border-radius: 0 !important;
+    width: 40px !important;
+    height: 37px !important;
+}
+
+.titlebar-close:-moz-lwtheme {
+    border-radius: 0 !important;
+    width: 56px !important;
+    height: 37px !important;
 }
 
 #alltabs-button {
@@ -23,21 +68,6 @@ The bug is, if you put your cursor at the very top right corner, titlebar close 
 }
 
 #private-browsing-indicator-with-label {
-    margin-right: 100px !important;
+    margin-right: 145px !important;
 }
 ```
-# A little note
-Applying this theme makes All tabs button and Private browsing text broken so I removed All tabs button to fix it, you can edit it back but it will look weird than usual. 
-
-To get it back, just delete `display: none !important` from `#alltabs-button` and add 
-```
-margin-right: 100px !important;
-```
-
-
-# How to install
-You need to create `chrome` folder in your Profile Directory, you can find your directory in  `about:support`.
-
-After creating `chrome` folder, put `userChrome.css` file in it.
-
-If you're using lastest version of Firefox you need to set `toolkit.legacyUserProfileCustomizations.stylesheets` to true in `about:config` or **any userChrome.css themes won't work**
