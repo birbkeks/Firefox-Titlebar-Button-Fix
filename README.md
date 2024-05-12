@@ -5,11 +5,16 @@ This theme fixes titlebar min max close buttons for Firefox in linux.
 If you put your cursor at the very top right corner, titlebar close button doesn't get selected unlike every other browser, or Firefox on Windows 7/8/10/11 etc. <br>
 (none of the chromium based browsers have this problem)
 
-<p align="center">
-<img src="https://github.com/birbkeks/Firefox-Titlebar-Button-Fix/assets/67545942/77ea3c51-c4aa-4f66-965a-7f1a58ca0262">
-</p>
-
 # How to install
+
+Unfortunately this fix has two different versions for different browsers based on Firefox. <br>
+Please make sure to download the right files.
+
+## On Firefox and LibreWolf:
+
+>[!IMPORTANT]
+>Make sure to download the right file!
+>Get userChrome.css for Firefox & LibreWolf from **here**.
 
 >[!IMPORTANT]
 >Make sure to apply Dark or Light theme from Extensions & Themes to make it work.
