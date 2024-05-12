@@ -8,13 +8,12 @@ If you put your cursor at the very top right corner, titlebar close button doesn
 # Showcase
 
 <div align="center">
-<img align="center" src="https://github.com/birbkeks/Firefox-Titlebar-Button-Fix/assets/67545942/4923e3a5-d119-452d-8604-4ea3e5e357ec">
-</div>
-
-<br>
-
+  <p align=center><i>Default Dark theme</i></p>
+<img src="https://github.com/birbkeks/Firefox-Titlebar-Button-Fix/assets/67545942/4923e3a5-d119-452d-8604-4ea3e5e357ec">
+</div> <br>
 <div align="center">
-<img align="center" src="https://github.com/birbkeks/Firefox-Titlebar-Button-Fix/assets/67545942/7b4dc716-18dd-4d24-a7cb-01867c15c467">
+  <p align="center"><i><a href="https://github.com/Godiesc/firefox-gx">Firefox-GX</a> Theme</i></p>
+<img src="https://github.com/birbkeks/Firefox-Titlebar-Button-Fix/assets/67545942/7b4dc716-18dd-4d24-a7cb-01867c15c467">
 </div>
 
 # How to install?
@@ -22,7 +21,9 @@ If you put your cursor at the very top right corner, titlebar close button doesn
 Unfortunately this fix has two different versions for different browsers based on Firefox. <br>
 Please make sure to download the right files.
 
-You can find your profile directory from `about:support`.
+You can find your profile directory from `about:support`. <br>
+
+![image](https://github.com/birbkeks/Firefox-Titlebar-Button-Fix/assets/67545942/4db37b8a-dfa7-42d9-b2c4-9c32f7d5e751)
 
 1. Go to Settings -> Extensions & Themes and change the theme to anything other than "System theme — auto".
 2. Enable `toolkit.legacyUserProfileCustomizations.stylesheets` from `about:config`, <br> otherwise Firefox will ignore userChrome.css file. 
