@@ -21,7 +21,7 @@ You can find your profile directory from `about:support`.
 > - userChrome.css file is different for "Firefox & LibreWolf" and "Waterfox, Floorp, GNU IceCat & Ghostery".
 
 >[!NOTE]
-> - On Floorp you also need to change a another option from Settings -> Look & Feel -> Browser appeareance <br> and choose something other than "Firefox Photon・Lepton UI" and "GNOME Theme (deprecated)" <br>
+> - On Floorp you also need to change a another option from Settings -> Look & Feel -> Browser appeareance and choose something other than "Firefox Photon・Lepton UI" and "GNOME Theme (deprecated)" <br>
 > - Palemoon is **not** supported because it only uses your system's titlebar. <br>
 > - Discontinued Firefox based browsers like Cliqz are also **not** supported.
 
