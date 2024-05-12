@@ -15,10 +15,10 @@ You can find your profile directory from `about:support`.
 1. Go to Settings -> Extensions & Themes and change the theme to anything other than "System theme — auto".
 2. Enable `toolkit.legacyUserProfileCustomizations.stylesheets` from `about:config`, <br> otherwise Firefox will ignore userChrome.css file. 
 3. Create `chrome` folder inside of your profile directory.
-4. Download userChrome.css.
+4. Download userChrome.css from releases.
 >[!IMPORTANT]
 > - Make sure to download userChrome.css file for the right browser! <br>
-> - userChrome.css file is different for "Firefox & LibreWolf" and "Waterfox, Floorp, GNU IceCat & Ghostery"!
+> - userChrome.css file is different for "[Firefox & LibreWolf](https://github.com/birbkeks/Firefox-Titlebar-Button-Fix/releases/tag/FL)" and "[Waterfox, Floorp, GNU IceCat & Ghostery](https://github.com/birbkeks/Firefox-Titlebar-Button-Fix/releases/tag/WFIG)"!
 
 >[!NOTE]
 > - On Floorp you also need to change a another option from Settings -> Look & Feel -> Browser appeareance and choose something other than "Firefox Photon・Lepton UI" and "GNOME Theme (deprecated)" <br>
