@@ -1,85 +1,34 @@
 # Firefox-Titlebar-Button-Fix
-This theme fixes titlebar min max close buttons for Firefox in linux.
+This theme fixes titlebar min max close buttons for Firefox on linux.
 
 ## What is this bug?
 If you put your cursor at the very top right corner, titlebar close button doesn't get selected unlike every other browser, or Firefox on Windows 7/8/10/11 etc. <br>
-(none of the chromium based browsers have this problem)
+(none of the chromium based browsers have this problem on linux)
 
-# How to install
+# How to install?
 
 Unfortunately this fix has two different versions for different browsers based on Firefox. <br>
 Please make sure to download the right files.
 
-## On Firefox and LibreWolf:
+You can find your profile directory from `about:support`.
 
+1. Go to Settings -> Extensions & Themes and change the theme to anything other than "System theme — auto".
+2. Enable `toolkit.legacyUserProfileCustomizations.stylesheets` from `about:config`, <br> otherwise Firefox will ignore userChrome.css file. 
+3. Create `chrome` folder inside of your profile directory.
+4. Download userChrome.css.
 >[!IMPORTANT]
->Make sure to download the right file!
->Get userChrome.css for Firefox & LibreWolf from **here**.
+> Make sure to download userChrome.css file for different browsers. <br>
+> userChrome.css file is different for "Firefox & LibreWolf" and "Waterfox, Floorp, GNU IceCat & Ghostery".
 
->[!IMPORTANT]
->Make sure to apply Dark or Light theme from Extensions & Themes to make it work.
+>[!NOTE]
+> On Floorp you also need to change a another option from Settings -> Look & Feel -> Browser appeareance and choose something other than "Firefox Photon・Lepton UI" and "GNOME Theme (deprecated)" <br>
+> Palemoon is **not** supported because it only uses your system's titlebar. <br>
+> Discontinued Firefox based browsers like Cliqz are also **not** supported.
 
-You need to create `chrome` folder in your Profile Directory, you can find it from `about:support`.
+5. Drag and drop userChrome.css into the chrome folder you made.
+7. Restart the browser.
 
-After creating `chrome` folder, put `userChrome.css` file in it.
+# Compatibility
 
-If you're using latest version of Firefox you need to set `toolkit.legacyUserProfileCustomizations.stylesheets` to true in `about:config` or **any of the userChrome.css theme won't going to work**
+## Compatibility with other 
 
-# userChrome.css Code
-
-> [!NOTE]
->Applying this theme breaks All tabs button so I had remove it to fix it, you can edit it back but it will look weird than usual. 
->To get it back, just delete (in the line 36) `display: none !important` from `#alltabs-button` and add 
->```
->margin-right: 100px !important;
->```
-
-
-```
-.titlebar-buttonbox-container {
-    position: absolute;
-    right: -6px;
-    top: 2px;
-}
-
-:root[tabsintitlebar] .titlebar-buttonbox {
-    width: 142px !important;
-    height: 32px !important;
-}
-
-.titlebar-min:-moz-lwtheme {
-    border-radius: 0 !important;
-    width: 40px !important;
-    height: 37px !important;
-}
-
-.titlebar-max:-moz-lwtheme {
-    border-radius: 0 !important;
-    width: 40px !important;
-    height: 37px !important;
-}
-
-.titlebar-restore:-moz-lwtheme {
-    border-radius: 0 !important;
-    width: 40px !important;
-    height: 37px !important;
-}
-
-.titlebar-close:-moz-lwtheme {
-    border-radius: 0 !important;
-    width: 56px !important;
-    height: 37px !important;
-}
-
-#alltabs-button {
-    display: none !important;
-}
-
-.titlebar-spacer[type="pre-tabs"], .titlebar-spacer[type="post-tabs"] {
-    display: none !important;
-}
-
-#private-browsing-indicator-with-label {
-    margin-right: 145px !important;
-}
-```
