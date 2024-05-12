@@ -17,8 +17,8 @@ You can find your profile directory from `about:support`.
 3. Create `chrome` folder inside of your profile directory.
 4. Download userChrome.css.
 >[!IMPORTANT]
-> - Make sure to download userChrome.css file for different browsers. <br>
-> - userChrome.css file is different for "Firefox & LibreWolf" and "Waterfox, Floorp, GNU IceCat & Ghostery".
+> - Make sure to download userChrome.css file for the right browser! <br>
+> - userChrome.css file is different for "Firefox & LibreWolf" and "Waterfox, Floorp, GNU IceCat & Ghostery"!
 
 >[!NOTE]
 > - On Floorp you also need to change a another option from Settings -> Look & Feel -> Browser appeareance and choose something other than "Firefox Photon・Lepton UI" and "GNOME Theme (deprecated)" <br>
@@ -29,6 +29,5 @@ You can find your profile directory from `about:support`.
 7. Restart the browser.
 
 # Compatibility
-
-## Compatibility with other 
+## Compatibility with other browsers
 
