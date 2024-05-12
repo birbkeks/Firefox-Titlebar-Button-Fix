@@ -8,7 +8,7 @@ This theme fixes titlebar min max close buttons for Firefox on linux.
 3. [Showcase](#showcase)
 4. [Compatibility](#compatibility)
    - [Compatibility with other userChrome.css themes](#compatibility-with-other-userchromecss-themes)
-   - [Compatibility with other Desktop Environments](#compatibility-with-other-desktop-environments)
+   - [Compatibility with Desktop Environments](#compatibility-with-desktop-environments)
 
 # What is this bug?
 If you put your cursor at the very top right corner, titlebar close button doesn't get selected unlike every other browser, or Firefox on Windows 7/8/10/11 etc. <br>
@@ -97,6 +97,6 @@ I only tested this fix with [Firefox-GX](https://github.com/Godiesc/firefox-gx) 
 
 Do **not** use this code because Firefox-GX's code might be different in the future!
 
-## Compatibility with other Desktop Environments
+## Compatibility with Desktop Environments
 
 I tested this on only KDE.
