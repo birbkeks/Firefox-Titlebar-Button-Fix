@@ -1,20 +1,18 @@
 # Firefox-Titlebar-Button-Fix
 This theme fixes titlebar min max close buttons for Firefox on linux.
 
-## What is this bug?
+## Table of contents
+
+1. [What is this bug?](#what-is-this-bug)
+2. [How to install?](#how-to-install)
+3. [Showcase](#showcase)
+4. [Compatibility](#compatibility)
+   - [Compatibility with other userChrome.css themes](#compatibility-with-other-userchromecss-themes)
+   - [Compatibility with other Desktop Environments](#compatibility-with-other-desktop-environments)
+
+# What is this bug?
 If you put your cursor at the very top right corner, titlebar close button doesn't get selected unlike every other browser, or Firefox on Windows 7/8/10/11 etc. <br>
 (none of the chromium based browsers have this problem on linux)
-
-# Showcase
-
-<div align="center">
-  <p align=center><i>Default Dark theme</i></p>
-<img src="https://github.com/birbkeks/Firefox-Titlebar-Button-Fix/assets/67545942/4923e3a5-d119-452d-8604-4ea3e5e357ec">
-</div> <br>
-<div align="center">
-  <p align="center"><i><a href="https://github.com/Godiesc/firefox-gx">Firefox-GX</a> Theme</i></p>
-<img src="https://github.com/birbkeks/Firefox-Titlebar-Button-Fix/assets/67545942/7b4dc716-18dd-4d24-a7cb-01867c15c467">
-</div>
 
 # How to install?
 
@@ -41,6 +39,17 @@ You can find your profile directory from `about:support`. <br>
 
 5. Drag and drop userChrome.css into the chrome folder you made.
 7. Restart the browser.
+
+# Showcase
+
+<div align="center">
+  <p align=center><i>Default Dark theme</i></p>
+<img src="https://github.com/birbkeks/Firefox-Titlebar-Button-Fix/assets/67545942/4923e3a5-d119-452d-8604-4ea3e5e357ec">
+</div> <br>
+<div align="center">
+  <p align="center"><i><a href="https://github.com/Godiesc/firefox-gx">Firefox-GX</a> Theme</i></p>
+<img src="https://github.com/birbkeks/Firefox-Titlebar-Button-Fix/assets/67545942/7b4dc716-18dd-4d24-a7cb-01867c15c467">
+</div>
 
 # Compatibility
 ## Compatibility with other userChrome.css themes
@@ -87,3 +96,7 @@ I only tested this fix with [Firefox-GX](https://github.com/Godiesc/firefox-gx) 
 </details>
 
 Do **not** use this code because Firefox-GX's code might be different in the future!
+
+## Compatibility with other Desktop Environments
+
+I tested this on only KDE.
